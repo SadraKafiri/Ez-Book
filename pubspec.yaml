@@ -2,7 +2,7 @@ name: ez_book
 description: A new Flutter project.
 
 # Prevent accidental publishing to pub.dev.
-publish_to: 'none'
+publish_to: "none"
 
 version: 1.0.0+1
 
@@ -33,7 +33,6 @@ flutter:
     - assets/images/
 
   fonts:
-  
     - family: Roboto
       fonts:
         - asset: assets/fonts/Roboto-Regular.ttf
