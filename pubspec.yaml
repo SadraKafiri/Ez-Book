@@ -1,0 +1,52 @@
+name: ez_book
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  http: ^0.13.4
+  readmore: ^2.1.0
+  smooth_page_indicator: ^1.0.0+2
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+
+  fonts:
+  
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+
+    - family: Gideon_Roman
+      fonts:
+        - asset: assets/fonts/GideonRoman-Regular.ttf
+
+    - family: Noto_Serif
+      fonts:
+        - asset: assets/fonts/NotoSerifDisplay-Regular.ttf
+
+    - family: Redressed
+      fonts:
+        - asset: assets/fonts/Redressed-Regular.ttf
